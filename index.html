@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aunty's Golden Biriyani - Pre-Order Fresh Biriyani Feasts</title>
+  <meta name="description" content="Authentic Hyderabadi Biriyani, made fresh on pre-order. Experience the taste of tradition with every bite.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <a href="#home" class="logo">
+        <img src="no-bg.png" alt="Avi's Biriyani" class="logo-img">
+      </a>
+      
+      <nav class="nav" id="nav">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#menu" class="nav-link">Menu & Pricing</a>
+        <a href="#about" class="nav-link">About Us</a>
+        <a href="#enquiry" class="nav-link">Enquiry</a>
+      </nav>
+      
+      <a href="#enquiry" class="btn btn-primary header-cta">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+        Pre-Order Now
+      </a>
+      
+      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle menu">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <div class="mobile-nav" id="mobile-nav">
+      <a href="#home" class="mobile-nav-link">Home</a>
+      <a href="#menu" class="mobile-nav-link">Menu & Pricing</a>
+      <a href="#about" class="mobile-nav-link">About Us</a>
+      <a href="#enquiry" class="mobile-nav-link">Enquiry</a>
+      <a href="#enquiry" class="btn btn-primary mobile-cta">Pre-Order Now</a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img src="hero-biriyani.jpg" alt="Delicious Biriyani" class="hero-img">
+      <div class="hero-overlay"></div>
+    </div>
+    
+    <div class="container hero-content">
+      <div class="hero-badge">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+        <span>Pre-Order Only • Fresh Cooked Daily</span>
+      </div>
+      
+      <h1 class="hero-title">
+        Pre-Order Fresh <span class="text-gradient">Biriyani</span> Feasts for Your Gathering!
+      </h1>
+      
+      <p class="hero-description">
+        Authentic flavors, cooked fresh. Order 6+ hours in advance for groups of up to 15. Delivered hot to your door.
+      </p>
+      
+      <div class="hero-buttons">
+        <a href="#menu" class="btn btn-primary btn-lg">
+          View Menu & Prices
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+        </a>
+        <a href="#about" class="btn btn-outline btn-lg">Our Story</a>
+      </div>
+    </div>
+    
+    <div class="hero-dots">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-label">Our Menu</span>
+        <h2 class="section-title">Choose Your Feast</h2>
+        <p class="section-description">Select your bucket size and type of biriyani for your gathering</p>
+      </div>
+      
+      <!-- Biriyani Type Tabs -->
+      <div class="tabs">
+        <button class="tab-btn active" data-type="chicken">🍗 Chicken Biriyani</button>
+        <button class="tab-btn" data-type="mutton">🍖 Mutton Biriyani</button>
+      </div>
+      
+      <!-- Menu Cards -->
+      <div class="menu-grid" id="menu-grid">
+        <!-- Cards will be populated by JavaScript -->
+      </div>
+      
+      <!-- Notice Banner -->
+      <div class="notice-banner">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+        <p>All orders require a minimum 6-hour notice to ensure freshness. Grand Feast requires 1-day advance booking.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="about-grid">
+        <!-- Image Side -->
+        <div class="about-image-wrapper">
+          <div class="about-image">
+            <img src="Avi.png.jpeg" alt="Aunty's Golden Biriyani - Our Story">
+          </div>
+          <div class="about-decor-1"></div>
+          <div class="about-decor-2"></div>
+        </div>
+        
+        <!-- Content Side -->
+        <div class="about-content">
+          <span class="section-label">Our Story</span>
+          <h2 class="section-title left">Our Cloud Kitchen Story</h2>
+          <p class="about-text">
+            We are a dedicated cloud kitchen focused on delivering the freshest Biriyani experience. Unlike traditional restaurants, we cook only upon receiving your pre-order, ensuring every dish is prepared with care and delivered piping hot.
+          </p>
+          <p class="about-text">
+            Place your feast 6+ hours in advance for the perfect taste. Our family recipes, premium ingredients, and Dum-cooking method create an unforgettable Biriyani experience.
+          </p>
+          
+          <!-- Features Grid -->
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg>
+              </div>
+              <div class="feature-content">
+                <h3>Made with Love</h3>
+                <p>Every batch prepared with authentic family recipes passed down through generations.</p>
+              </div>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"/><path d="M7 2v20"/><path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"/></svg>
+              </div>
+              <div class="feature-content">
+                <h3>Fresh Ingredients</h3>
+                <p>We use only the finest basmati rice, premium spices, and quality meat.</p>
+              </div>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+              </div>
+              <div class="feature-content">
+                <h3>Pre-Order Only</h3>
+                <p>Cooked fresh upon order to ensure maximum flavor and authentic taste.</p>
+              </div>
+            </div>
+            
+            <div class="feature-card">
+              <div class="feature-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg>
+              </div>
+              <div class="feature-content">
+                <h3>Authentic Taste</h3>
+                <p>Traditional Hyderabadi Dum Biriyani that melts in your mouth.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enquiry Section -->
+  <section id="enquiry" class="enquiry-section">
+    <div class="container">
+      <div class="enquiry-wrapper">
+        <div class="section-header">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title light">Enquiry & Special Orders</h2>
+          <p class="section-description light">Fill out the form below and we'll get back to you within 2 hours</p>
+        </div>
+        
+        <!-- Form Card -->
+        <div class="form-card">
+          <form id="enquiry-form">
+            <div class="form-grid">
+              <div class="form-group">
+                <label for="name">Your Name *</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" placeholder="+91 98765 43210" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="your@email.com">
+              </div>
+              
+              <div class="form-group">
+                <label for="date">Date of Event *</label>
+                <input type="date" id="date" name="date" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="bucket-type">Bucket Size *</label>
+                <select id="bucket-type" name="bucketType" required>
+                  <option value="">Select bucket size</option>
+                  <option value="family">Family Bucket (4-6 people)</option>
+                  <option value="party">Party Bucket (8-10 people)</option>
+                  <option value="grand">Grand Feast (12-15 people)</option>
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="biriyani-type">Biriyani Type *</label>
+                <select id="biriyani-type" name="biriyaniType" required>
+                  <option value="">Select biriyani type</option>
+                  <option value="chicken">Chicken Biriyani</option>
+                  <option value="mutton">Mutton Biriyani</option>
+                </select>
+              </div>
+            </div>
+            
+            <div class="form-group full">
+              <label for="message">Special Requests / Message</label>
+              <textarea id="message" name="message" placeholder="Any special requests or dietary requirements..." rows="4"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9 22,2"/></svg>
+              Send Enquiry
+            </button>
+          </form>
+          
+          <!-- Notice -->
+          <div class="form-notice">
+            <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+            <p>For larger orders or custom requests, please contact us. Remember, all orders need a <strong>6-hour</strong> pre-order window for Family & Party buckets, and <strong>1-day</strong> advance for Grand Feast.</p>
+          </div>
+        </div>
+        
+        <!-- Contact Info -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <span>+91 98765 43210</span>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <span>order@auntysbiriyani.com</span>
+          </div>
+          
+          <div class="contact-item">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+            </div>
+            <span>9 AM - 9 PM Daily</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Brand -->
+        <div class="footer-brand">
+          <img src="logo.png" alt="Aunty's Golden Biriyani" class="footer-logo">
+          <p>Authentic Hyderabadi Biriyani, made fresh on pre-order. Experience the taste of tradition with every bite.</p>
+        </div>
+        
+        <!-- Quick Links -->
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Menu & Pricing</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#enquiry">Enquiry</a></li>
+          </ul>
+        </div>
+        
+        <!-- Contact -->
+        <div class="footer-contact">
+          <h4>Contact Us</h4>
+          <ul>
+            <li>
+              <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              +91 98765 43210
+            </li>
+            <li>order@auntysbiriyani.com</li>
+            <li>Cloud Kitchen, Your City</li>
+          </ul>
+        </div>
+        
+        <!-- Social -->
+        <div class="footer-social">
+          <h4>Follow Us</h4>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Aunty's Golden Biriyani. All rights reserved.</p>
+        <p>Made with <svg class="icon-heart" viewBox="0 0 24 24" fill="currentColor" stroke="currentColor" stroke-width="2"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></svg> in India</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <div class="toast-content">
+      <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20,6 9,17 4,12"/></svg>
+      <div class="toast-text">
+        <strong>Enquiry Submitted Successfully!</strong>
+        <p>We'll contact you within 2 hours to confirm your order.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
